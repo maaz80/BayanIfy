@@ -16,7 +16,7 @@ let bayans = [
     { bayanname: "Akhri Jannati Pe Bayan", filePath: "bayan/3.mp3", coverPath: "bayan/3.jpg" },
     { bayanname: "Nabi-e Kareem Ka Akhri Din", filePath: "bayan/4.mp3", coverPath: "bayan/4.jpg" },
     { bayanname: "Jannat Ki Hoor Pe Bayan", filePath: "bayan/5.mp3", coverPath: "bayan/5.jpg" },
-    { bayanname: "Jannat Ka Haseen Manzar Bayan", filePath: "bayan/6.mp3", coverPath: "bayan/6.jpg" }
+    { bayanname: "Jannat Ka Haseen Manzar", filePath: "bayan/6.mp3", coverPath: "bayan/6.jpg" }
 ]
 
 // Set the initial volume value
