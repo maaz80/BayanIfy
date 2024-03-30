@@ -299,7 +299,7 @@ h1 {
         width: 75px;
         display: flex;
         position: absolute;
-        margin-left: 12px;
+        margin-left: 7px;
         top: -35px;
     }
 
@@ -320,7 +320,7 @@ h1 {
 
     .vol {
         margin-top: -43px;
-        margin-left: -72px;
+        margin-left: -77px;
     }
 
     #volbar {
