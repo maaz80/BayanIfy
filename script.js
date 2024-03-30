@@ -149,7 +149,7 @@ document.getElementById("previous").addEventListener('click', () => {
 function createCard(title, duration, thumbnail, ) {
 
     let html = ` <div class="bayanItem">
-    <img src="${thumbnail}" alt="">
+    <img src="def-thumb.png" alt="">
     <span class="bayanname">${title}</span>
     <span class="bayanlistplay"><span>${duration}<i id="1"
                 class="far bayanItemPlay  fa-play-circle"></i></span></span>
@@ -165,7 +165,6 @@ document.addEventListener("DOMContentLoaded", function () {
     createBoxButton.addEventListener("click", function () {
         const title = prompt("Enter title");
         const duration = prompt("Enter Duration of video");
-        const thumbnail = prompt("Enter thumbnail name");
 
         const cardHtml = createCard(title, duration, thumbnail);
         container.insertAdjacentHTML("beforeend", cardHtml);
