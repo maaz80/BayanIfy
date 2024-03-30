@@ -146,7 +146,7 @@ document.getElementById("previous").addEventListener('click', () => {
 
 //Craetion
 
-function createCard(title, duration, thumbnail, ) {
+function createCard(title, duration ) {
 
     let html = ` <div class="bayanItem">
     <img src="def-thumb.png" alt="">
@@ -166,7 +166,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const title = prompt("Enter title");
         const duration = prompt("Enter Duration of video");
 
-        const cardHtml = createCard(title, duration, thumbnail);
+        const cardHtml = createCard(title, duration);
         container.insertAdjacentHTML("beforeend", cardHtml);
     });
 });
