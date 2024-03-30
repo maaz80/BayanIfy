@@ -355,6 +355,15 @@ h1 {
         border-radius: 50%;
         cursor: pointer;
     }
+        input[type=range]::-moz-range-thumb {
+        appearance: none;
+        width: 15px;
+        height: 15px;
+        background: #546774;
+        /* Green thumb color */
+        border-radius: 50%;
+        cursor: pointer;
+    }
 .details{
     background-color: rgb(111, 87, 87);
     margin-bottom: 103px;
