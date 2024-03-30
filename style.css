@@ -305,7 +305,7 @@ h1 {
 
     #masterclass {
         position: absolute;
-        left: -39px;
+        left: -44px;
         font-size: 14px;
         bottom: 70px;
         width: 230px;
@@ -319,7 +319,7 @@ h1 {
     }
 
     .vol {
-        margin-top: -43px;
+        margin-top: -48px;
         margin-left: -77px;
     }
 
@@ -329,7 +329,7 @@ h1 {
     }
 
     #t-duration {
-        margin-top: -163px;
+        margin-top: -173px;
         font-size: small;
         margin-left: -9px;
     }
