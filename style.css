@@ -299,13 +299,13 @@ h1 {
         width: 75px;
         display: flex;
         position: absolute;
-        margin-left: 3px;
+        margin-left: 8px;
         top: -35px;
     }
 
     #masterclass {
         position: absolute;
-        left: -48px;
+        left: -39px;
         font-size: 14px;
         bottom: 70px;
         width: 230px;
@@ -319,7 +319,7 @@ h1 {
     }
 
     .vol {
-        margin-top: -48px;
+        margin-top: -43px;
         margin-left: -80px;
     }
 
@@ -329,7 +329,7 @@ h1 {
     }
 
     #t-duration {
-        margin-top: -173px;
+        margin-top: -154px;
         font-size: small;
         margin-left: -23px;
     }
