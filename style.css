@@ -2,7 +2,7 @@
 
 :root {
     --background-color: rgb(79, 54, 181);
-    --color: black;
+    --background-color2 :rgb(220, 70, 70);
 }
 
 * {
@@ -68,10 +68,15 @@ h1 {
     display: flex;
     padding: 15px;
     font-size: 10px;
+    align-items: center;
+    font-weight: 900;
+    font-size: 1.3em;
+    color: white;
 }
 
 .bottom {
-    position: sticky;
+    position: fixed;
+    width: 100%;
     background-color: var(--background-color);
     height: 90px;
     bottom: 0px;
@@ -203,22 +208,21 @@ h1 {
 @media only screen and (max-width: 800px) {
 
     .container {
-        margin-bottom: 4px;
-        background-color: #adddc9;
+        margin-bottom: 1px;
+        background-color: rgb(111, 87, 87);
         background-image: none;
-        color: black;
         margin-top: 0;
         min-height: 80vh;
     }
 
     .bayanify {
-
         margin-right: 8px;
     }
 
     .logo img {
         width: 40px;
         margin: 3px;
+        margin-left: -10px;
     }
 
     .logo {
@@ -227,7 +231,7 @@ h1 {
     }
 
     nav ul {
-        background-color: #41B3A3;
+        background-color:var(--background-color2);
         padding-left: 0rem;
         margin-bottom: 0.2em;
 
@@ -235,7 +239,7 @@ h1 {
 
     #createBoxButton {
         position: relative;
-        left: 80px;
+        left: 70px;
     }
 
     nav ul li {
@@ -244,12 +248,13 @@ h1 {
 
 
     h1 {
-        font-size: 25px !important;
+        display: flex;
+        padding: 5px;
+        font-size: 10px;
+        align-items: center;
         font-weight: bolder;
         font-size: 1.3em;
-        border-radius: 10px;
-        display: flex;
-        margin: 0px;
+        color: white;
     }
 
     .bayanItem {
@@ -258,6 +263,12 @@ h1 {
         height: 42px;
         margin-top: 20px;
         box-shadow: 5px 5px #E8A87C;
+    }
+    .bayanname{
+        position: absolute;
+        width: 210px;
+        left: 49px;
+      
     }
 
     .bayanItem img {
@@ -288,20 +299,20 @@ h1 {
         width: 75px;
         display: flex;
         position: absolute;
-        margin-left: 32px;
+        margin-left: 12px;
         top: -35px;
     }
 
     #masterclass {
         position: absolute;
-        left: -32px;
+        left: -39px;
         font-size: 14px;
         bottom: 70px;
-        width: 200px;
+        width: 230px;
     }
 
     .bottom {
-        background-color: #41B3A3;
+        background-color: var(--background-color2);
         height: 100px;
         justify-content: end;
 
@@ -309,7 +320,7 @@ h1 {
 
     .vol {
         margin-top: -43px;
-        margin-left: -87px;
+        margin-left: -72px;
     }
 
     #volbar {
@@ -344,10 +355,14 @@ h1 {
         border-radius: 50%;
         cursor: pointer;
     }
-
+.details{
+    background-color: rgb(111, 87, 87);
+    margin-bottom: 103px;
+    border-radius: 12px;
+}
     .footer {
-        margin-left: 90px;
-        margin-top: 60px;
+        margin-left: 85px;
+        margin-top: 3px;
     }
 
     .footer a {
@@ -360,11 +375,11 @@ h1 {
 
 
     .footer a:hover {
-        color: #000000;
+        color: #ffffff;
     }
 
     .rights {
-        margin-left: 50px;
+        margin-left: 45px;
         color: #333;
     }
 }
